@@ -4,6 +4,14 @@
 
 BG1 is an unofficial, experimental client for obtaining Lightning Lane Multi Pass reservations and virtual queue boarding groups at Disney theme parks in the United States. Read the [BG1 documentation](https://joelface.github.io/bg1/) to learn more.
 
+## Dokumentation dieses Forks
+
+Die [lokale Codeanalyse](docs/README.md) dokumentiert Architektur, Funktionsabläufe,
+Entwicklungsumgebung und bekannte Probleme des untersuchten Standes. Sie enthält
+auch die Ergebnisse der ausgeführten Prüfungen. Lightning-Lane-Buchungen sind
+in diesem Stand für beide Resorts über die UI-Regeln deaktiviert; Build und
+Typecheck scheitern am fehlenden Modul `src/api/diu`.
+
 ## Acknowledgments
 
 - **Len Testa:** For helping me get as close as I could ever reasonably expect to accomplish a not very serious childhood dream of almost being an Imagineer. Also for creating [Touring Plans](https://touringplans.com/), which is pretty rad.
